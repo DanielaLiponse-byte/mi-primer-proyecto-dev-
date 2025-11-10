@@ -1,1 +1,31 @@
+//funcion para sumar dos numeros
+funtion sumar(a,b){
+return a+b;
+}
+//funcion para restar dos numeros
+funtion restar(a,b){
+return a-b;
+}
+//funcion para multiplicar dos numeros
+funtion multiplicar(a,b){
+return a*b;
+}
+//funcion para dividir dos numeros
+funtion dividir(a,b){
+if(b===0){
+return "Error: No se puede dividir entre cero";
+}
+return a/b;
+}
+
+//Ejemplo de uso:
+console.log("suma:"+sumar(5,
+3));   //8
+console.log("resta:"+restar(5,3));  //
+2
+console.log("Multiplicacion:"+
+multiplicar(5,3));//15
+console.log("Division:"+dividir(5,
+0)); //Error: No se puede dividir entre cero
+
 
